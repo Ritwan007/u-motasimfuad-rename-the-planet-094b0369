@@ -1,5 +1,7 @@
 // Rename the Planet — entry program (Node 22).
 // Writes one funny new planet name + why to /output/entry.txt.
+// Chosen from 12 fresh candidates: Jupiter as a nightclub bouncer — its
+// gravity eats comets so Earth doesn't have to (108 chars, 110 bytes).
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const ENTRY =
